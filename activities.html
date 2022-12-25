@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <!--BOOTSTRAP-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="script/index.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.menu .items').removeClass('on');
+            $('.menu .activities').addClass('on');
+        });
+    </script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-inverse myNavbar navbar-fixed-top">
+        <div class="container-fluid" id="nav-header">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="main.html" class="navbar-brand" id="myPages">
+                    <img src="image/logo/RYAN-logo (3).png" alt="logo" class="logo" width="200" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right menu">
+                    <li class="on items home"><a href="main.html">Home</a></li>
+                    <li class="on items aboutus"><a href="aboutus.html">About Us</a></li>
+                    <li class="on items dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Facilities
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="indoorsport.html">Indoor Sports</a></li>
+                            <li class="active"><a href="outdoorsport.html">Outdoor Sports</a></li>
+                            <li class="active"><a href="recreation.html">Recreation</a></li>
+                        </ul>
+                    </li>
+                    <li class="on items activities"><a href="activities.html">Activities</a></li>
+                    <li class="on items membership"><a href="membership.html">Membership</a></li>
+                    <li class="on items blog"><a href="blog.html">Blog</a></li>
+                    <li class="on items feedback"><a href="feedback.html">Feedback</a></li>
+                    <li class="on items contactus"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--SUBMENU-->
+    <header class="submenu">
+        <div class="container-fluid">
+            <div class="submenu-row" style="background-image: url(image/bread-crumb-bg-1.jpg)">
+                <div class="content">
+                    <h4>Activities
+                        <div>
+                            <a href="main.html">HOME</a>
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <a href="activities.html" class="active">ACTIVITIES</a>
+                        </div>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--ACTIVIIES-->
+    <div class="activities activities1">
+        <div class="container">
+            <h3>2020</h3>
+            <div class="activities-row">
+                <div class="header">
+                    <div class="col-sm-4">Name</div>
+                    <div class="col-sm-2">Time</div>
+                    <div class="col-sm-6">Description</div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MY CLUB – MY ADDICTION</a></div>
+                    <div class="col-sm-2 time">Jun 8</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse1">
+                        Contribution to return "ADDICTIVE" behavior
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse1" class="collapse">
+                            The community campaign called "My Club - My Addiction" was initiated by California Fitness &
+                            Yoga with the aim of encouraging people to change their lifestyles, actively choosing
+                            "addicts" that favor active sports to replace negative addictions such as tobacco, alcohol,
+                            stimulants ...
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_2.html">LEEP ASIA 2018</a></div>
+                    <div class="col-sm-2 time">Aug 17</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse2">
+                        Making Life Better
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse2" class="collapse">
+                            With the message calling on people to give up bad habits and increase physical activity to
+                            prevent dangerous diseases, especially cancer, LEEP ASIA has made a great reputation in the
+                            online community. According to statistics from BuzzMetrics, LEEP ASIA is one of the Top 10
+                            prominent events on social networks in August 2018.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MOVE21</a></div>
+                    <div class="col-sm-2 time">Oct</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse3">
+                        Body Transformation Challenge
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse3" class="collapse">
+                            Is a campaign to help raise awareness of practice and build healthy living habits for the
+                            Vietnamese community of the Ryan Sports Club group. The campaign is becoming a hottest trend
+                            today with the participation of a large number of people who want to change their lives.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>2019</h3>
+            <div class="activities-row">
+                <div class="header">
+                    <div class="col-sm-4">Name</div>
+                    <div class="col-sm-2">Time</div>
+                    <div class="col-sm-6">Description</div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MY CLUB – MY ADDICTION</a></div>
+                    <div class="col-sm-2 time">Jun 8</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse1">
+                        Contribution to return "ADDICTIVE" behavior
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse1" class="collapse">
+                            The community campaign called "My Club - My Addiction" was initiated by California Fitness &
+                            Yoga with the aim of encouraging people to change their lifestyles, actively choosing
+                            "addicts" that favor active sports to replace negative addictions such as tobacco, alcohol,
+                            stimulants ...
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_2.html">LEEP ASIA 2018</a></div>
+                    <div class="col-sm-2 time">Aug 17</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse2">
+                        Making Life Better
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse2" class="collapse">
+                            With the message calling on people to give up bad habits and increase physical activity to
+                            prevent dangerous diseases, especially cancer, LEEP ASIA has made a great reputation in the
+                            online community. According to statistics from BuzzMetrics, LEEP ASIA is one of the Top 10
+                            prominent events on social networks in August 2018.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MOVE21</a></div>
+                    <div class="col-sm-2 time">Oct</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse3">
+                        Body Transformation Challenge
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse3" class="collapse">
+                            Is a campaign to help raise awareness of practice and build healthy living habits for the
+                            Vietnamese community of the Ryan Sports Club group. The campaign is becoming a hottest trend
+                            today with the participation of a large number of people who want to change their lives.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>2018</h3>
+            <div class="activities-row">
+                <div class="header">
+                    <div class="col-sm-4">Name</div>
+                    <div class="col-sm-2">Time</div>
+                    <div class="col-sm-6">Description</div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MY CLUB – MY ADDICTION</a></div>
+                    <div class="col-sm-2 time">Jun 8</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse1">
+                        Contribution to return "ADDICTIVE" behavior
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse1" class="collapse">
+                            The community campaign called "My Club - My Addiction" was initiated by California Fitness &
+                            Yoga with the aim of encouraging people to change their lifestyles, actively choosing
+                            "addicts" that favor active sports to replace negative addictions such as tobacco, alcohol,
+                            stimulants ...
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_2.html">LEEP ASIA 2018</a></div>
+                    <div class="col-sm-2 time">Aug 17</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse2">
+                        Making Life Better
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse2" class="collapse">
+                            With the message calling on people to give up bad habits and increase physical activity to
+                            prevent dangerous diseases, especially cancer, LEEP ASIA has made a great reputation in the
+                            online community. According to statistics from BuzzMetrics, LEEP ASIA is one of the Top 10
+                            prominent events on social networks in August 2018.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="col-sm-4 name"><a href="activities_1.html">MOVE21</a></div>
+                    <div class="col-sm-2 time">Oct</div>
+                    <div class="col-sm-6 description" data-toggle="collapse" data-target="#collapse3">
+                        Body Transformation Challenge
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <div id="collapse3" class="collapse">
+                            Is a campaign to help raise awareness of practice and build healthy living habits for the
+                            Vietnamese community of the Ryan Sports Club group. The campaign is becoming a hottest trend
+                            today with the participation of a large number of people who want to change their lives.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-right item1">
+                    <h5>Contact us</h5>
+                    <ul class="address">
+                        <li>
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            514B Huỳnh Tấn Phát, Bình Thuận Ward, Ninh Kiều, Cần Thơ
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-earphone"></span>
+                            (028) 3773 0513 - (028) 3773 0514
+                        </li>
+                        <li>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            <a href="mailto:info@ryansc.vn">info@ryansc.vn</a>
+                        </li>
+                    </ul>
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/" target="_blank"><img
+                                    src="image/icons/iconfinder_Facebook_4550856.png" alt=""></a></li>
+                        <li><a href="https://twitter.com/?lang=en" target="_blank"><img
+                                    src="image/icons/iconfinder_2018_social_media_popular_app_logo_twitter_3225183.png"
+                                    alt=""></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><img
+                                    src="image/icons/iconfinder_2018_social_media_popular_app_logo_youtube_3225180.png"
+                                    alt=""></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img
+                                    src="image/icons/iconfinder_social-instagram-new-circle_1164349.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 border-right item2">
+                    <h5>Links</h5>
+                    <ul class="menu">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 border-right item3">
+                    <h5>Suggestion and Complaint</h5>
+                    <form action="" onsubmit="return check()">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                        <input type="text" name="mail" id="mail" placeholder="E-mail" required>
+                        <textarea name="text" placeholder="Address"
+                            style="margin: 0px 0px 11px; width: 100%; height: 50px;"></textarea>
+                        <textarea name="text" placeholder="Text"
+                            style="margin: 0px 0px 16px; width: 100%; height: 85px;" required></textarea>
+                        <input type="submit" name="send" value="Send" class="btn btn-blue">
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 item4" style="padding: 0px 30px;">
+                    <h5>Open Hours</h5>
+                    <p class="open">Mon - Fri<span>07:00 - 11:00</span></p>
+                    <p class="open">Sat<span>07:00 - 21:00</span></p>
+                    <p class="open">Sun<span>Holiday</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--COPYRIGHT-->
+    <div class="copyright">
+        <div class="container">
+            Copyrights &copy; 2020 Ryan Sports Club - All rights reserved
+        </div>
+    </div>
+    <!--SCROLLTOP-->
+    <a id="topbtn"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</body>
+
+</html>
